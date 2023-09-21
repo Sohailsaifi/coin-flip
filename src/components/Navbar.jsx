@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar relative z-[10]">
       <img src={logo} alt="coinflip" className="w-[110px] h-[16px] flex-shrink-0 sm:ml-10" />
 
-      <ul className="list-none sm:flex hidden justify-center items-center flex-1">
+      <ul className="list-none md:flex hidden justify-center items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -29,10 +29,10 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <Button styles={`sign-in-button sm:flex hidden`} text={'Sign in'}/>
-      <Button styles={`sign-up-button mr-10 sm:flex hidden`} text={'Sign up'}/>
+      <Button styles={`sign-in-button md:flex hidden`} text={'Sign in'}/>
+      <Button styles={`sign-up-button mr-10 md:flex hidden`} text={'Sign up'}/>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="md:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
