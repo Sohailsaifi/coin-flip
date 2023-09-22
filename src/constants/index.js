@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, img, img2, img3  } from "../assets";
 
 export const navLinks = [
   {
@@ -26,24 +26,27 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: img,
+    title: "Trade Desk",
+    bttn: "Get Started",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Invest in crypto anytime, anywhere with safe, secure, and easy to use platform",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: img2,
+    title: "CoinFlip ATMs",
+    bttn: "Find an ATM",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We have thousands of ATMs located across U.S. where you can easily convert cash to crypto",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: img3,
+    title: "CoinFlip Wallet",
+    bttn: "Download the App",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Store your growing investments in our non-custodial wallet.",
   },
 ];
 

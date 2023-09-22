@@ -36,7 +36,9 @@ import star1 from "./star-img-1.png";
 import star2 from "./star-img-2.png";
 import star3 from "./star-img-3.png";
 
-
+import img from "./img.png";
+import img2 from "./img-2.png";
+import img3 from "./img-3.png";
 
 export {
   airbnb,
@@ -75,6 +77,10 @@ export {
   star1,
   star2,
   star3,
+
+  img,
+  img2,
+  img3
 };
 
 

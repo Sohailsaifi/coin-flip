@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-[60px]`}>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 md:px-16 px-6 relative `}>
 
 

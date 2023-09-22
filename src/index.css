@@ -102,7 +102,6 @@
   text-align: center;
 
   /* button/16px */
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -130,11 +129,48 @@
   border-radius: 25px;
   background: var(--black-black-12, #1A1B23);
   display: flex;
-  width: 380px;
+  max-width: 380px;
   padding: 32px 24px;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 22px;
+  margin: auto;
+  height: 320px;
+  margin-bottom: 20px;
+}
+
+.intro-block {
+  align-items: center;
+}
+
+.arrow {
+  font-size: 34px; /* Adjust the font-size to make the arrow larger */
+}
+
+
+.info-button{
+  color: var(--primary-purple, #B982FF);
+  text-align: center;
+  cursor: pointer;
+  /* button/16px */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 16px */
+}
+
+.info-block-heading {
+  color: var(--black-black-100, #FFF);
+  /* text-align: center; */
+  
+  /* h3-32px */
+  /* font-family: Inter; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: 130%; */
+  /* margin-top: 20px;
+  margin-bottom: 18px; */
 }
 
 .bg-black-gradient {
