@@ -1,9 +1,4 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
+
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -39,14 +34,15 @@ import star3 from "./star-img-3.png";
 import img from "./img.png";
 import img2 from "./img-2.png";
 import img3 from "./img-3.png";
+import bgimg from "./bg-img.png";
+import support from "./support.png";
+import bggradient from "./bg-gradient-img.png";
+import bggreen from "./bg-gradient-green.png";
+import bgpurple from "./bg-gradient-purple.png";
+import chart from "./chart.png";
+import suitcase from "./suitcase.png";
 
 export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
   logo,
   quotes,
   robot,
@@ -80,7 +76,14 @@ export {
 
   img,
   img2,
-  img3
+  img3,
+  bgimg,
+  support,
+  bggradient,
+  chart,
+  bggreen,
+  suitcase,
+  bgpurple,
 };
 
 

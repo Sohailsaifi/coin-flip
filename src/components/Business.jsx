@@ -1,21 +1,23 @@
-import { features } from "../constants";
+import { bgimg } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const FeatureCard = ({ icon, title, content,  bttn }) => (
-  <div className="box-shadow text-white info-block z-[1]">
-    <img src={icon} alt=""  className="w-[70px]"/>
-    <h1 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1 info-block-heading">{title}</h1>
-    <p className="font-poppins font-normal text-dimWhite text-[13px] leading-[24px] text-center">{content}</p>
-    <button className="font-poppins font-normal info-button">{bttn} <span className="arrow">&rarr;</span></button>
-  </div>
-);
+const Business = () => (
+  <section id="business" className={`flex md:flex-row flex-col ${styles.paddingY} mb-[60px]`}>
+    <div className={`sm:flex flex-1 justify-center items-center flex-col xl:px-0 md:px-16 px-6 relative`}>
+      <img src={bgimg} className="brighten absolute right-[-40%]" alt=""/>
 
-const Business = () =>  (
-  <section id="features" className={`${layout.section} justify-center`}>
-    {features.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
+        <h2 className={`${styles.heading2} sm:text-center z-[1]`}>
+          A crypto investment platform <br />
+          that invests in you
+        </h2>
+        <p className={`${styles.paragraph} max-w-[670px] mt-4 sm:text-center z-[1]`}>
+          We invest more resources than any other platform in making sure great support from real people is a click away, whenever you need it.
+        </p>
+
+        <Button styles={`get-started-button mt-16 md:mt-16 z-[1]`} text={'Get Started'} />
+        
+    </div>
   </section>
 );
 
